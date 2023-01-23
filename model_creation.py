@@ -9,9 +9,7 @@ from PIL import Image
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPool2D, BatchNormalization, Activation
 
-
 from keras.utils.np_utils import to_categorical  # one-hot-encoding
-
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ReduceLROnPlateau
 from sklearn.model_selection import train_test_split
@@ -118,7 +116,7 @@ datagen = ImageDataGenerator(
 
 datagen.fit(x_train)
 
-epochs = 5
+epochs = 20
 batch_size = 50
 cnn_history = model.fit_generator(datagen.flow(x_train, y_train, batch_size=batch_size),
                                 epochs=epochs, validation_data=(x_validate, y_validate),

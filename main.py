@@ -41,7 +41,8 @@ file_list_column = [
 image_viewer_column = [
     [sgq.Text("Choose an image from list on left:")],
     [sgq.Image(key="-IMAGE-")],
-    [sgq.Text(size=(50, 2), key="-TOUT-", font=font)],
+    [sgq.Text(size=(70, 2), key="-TOUT-")],
+
 ]
 
 # Layout
@@ -86,8 +87,11 @@ while True:
             img_to_predict = (np.expand_dims(img_to_predict, 0))
             prediction = model.predict(img_to_predict)
             index = np.argmax(prediction[0], 0)
-            window["-TOUT-"].update("Prediction: "+lesion_type_dict[index])
+
             #window["-TOUT-"].update(prediction[0])
+            window["-TOUT-"].update("Best Guess: "+ lesion_type_dict[index])
+
+
 
         except:
             pass

@@ -41,7 +41,7 @@ file_list_column = [
 image_viewer_column = [
     [sgq.Text("Choose an image from list on left:")],
     [sgq.Image(key="-IMAGE-")],
-    [sgq.Text(size=(70, 2), key="-TOUT-")],
+    [sgq.Text(size=(70, 2), key="-TOUT-",font=font)],
 
 ]
 

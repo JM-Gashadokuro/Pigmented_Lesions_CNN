@@ -9,4 +9,6 @@ The other is meant to provide a simple Graphical User Interface, to make for an 
 ## Used technologies
 The first part of the app (the one used for generating and training a model) mostly relies on Keras to build and train the model. It also relies on pandas for csv import
 as well as converting a certain variable to categorical type, numpy for calculating standard deviation and mean, as well as converting lists into arrays.  
-Other than that, there's pillow for loading and resizing images and sklearn (requiring also scikit-learn) for randomly splitting data into train/validate/test subsets.
+Other than that, there's pillow for loading and resizing images and sklearn (requiring also scikit-learn) for randomly splitting data into train/validate/test subsets.  
+  
+Dataset: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T

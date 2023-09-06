@@ -3,7 +3,7 @@
 This is a simple app consisting of two programs - one generating and training a model of a Convolutional Neural Network meant to classify pigmented skin lesions from 
 photos into 7 categories:  
 Actinic keratoses, Basal cell carcinoma, Benign keratosis-like lesions, Dermatofibroma, Melanocytic nevi, Melanoma and Vascular lesions.  
-The other is meant to provide a simple Graphical User Interface, to make for an easier, more user-friendly way of querying the model for predictions. To get a prediction, simply click the "Browse"button on top of the window to browse through your files and select a folder containing photos you wish to classify. Once that's done, you'll see a list of all the .jpgphotos contained in that folder in the left panel of the window. Simply click a photo on the list to preview the photo on the right panel, and get a prediction below the photo.  
+The other is meant to provide a simple Graphical User Interface, to make for an easier, more user-friendly way of querying the model for predictions. To get a prediction, simply click the "Browse" button on top of the window to browse through your files and select a folder containing photos you wish to classify. Once that's done, you'll see a list of all the .jpgphotos contained in that folder in the left panel of the window. Simply click a photo on the list to preview the photo on the right panel, and get a prediction below the photo.  
   
 ![Desktop 23-01-2023 15-45-47-538](https://user-images.githubusercontent.com/48767765/214070503-b5d690bd-f730-40f2-8973-faeaef1feae5.png)
 ## Used technologies
